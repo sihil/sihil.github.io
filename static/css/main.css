@@ -142,11 +142,14 @@ body {
 .avatar {
   padding-top: 5%;
 }
+.avatar img {
+  max-width: 35%;
+}
 .blog-post{
   padding-top: 15px;
 }
 .blogpost img {
-  width: 100%;
+  max-width: 100%;
 }
 .blog-title{
   padding-top: 2px;
