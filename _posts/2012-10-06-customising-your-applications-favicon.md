@@ -73,7 +73,7 @@ cake.decorate(outputImage, ediblePixels)
 
 So what does that look like when you run it? Well let's start with the edible pixels. Using dark, milk and white chocolate (plus a mix) we can create four different tones of chocolate. When spread thinly and cut into one centimeter squares with a pizza cutter you get something that looks a little like this:
  
-![Edible chocolate pixels]({{ site.baseurl }}assets/favicon-pixels.png)
+![Edible chocolate pixels]({{ site.baseurl }}assets/favicon-pixels.jpg)
 
 Next we need to bake a cake and make sure we've got enough pixels of each type of chocolate.
 
