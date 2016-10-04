@@ -47,7 +47,23 @@ val remappedPixels = inputPixels.map { pixel =>
   }
 }
 
-...
+val distinctPixelCounts = remappedPixels.distinct.sorted.map{ pixel => 
+  pixel.luminance -> remappedPixels.count(pixel ==)
+}
+
+val outputImage = new BufferedImage(width, height, TYPE_INT_RGB)
+for {
+  x <- 0 until favicon.getWidth
+  y <- 0 until favicon.getHeight
+} {
+  val pixel = remappedPixels.get(x * 16 + y)
+  outputImage.setRGB(x, y, pixel.rgb)
+}
+
+ImageIO.write(outputImage, "png", new File("output-new.png"))
+
+println(s"Distribution of remapped pixels (palette of $paletteSize):")
+println(distinctPixelCounts.map{ case (lum, count) => s"Luminance: $lum  Count: $count" }.mkString("\n"))
 {% endhighlight %}
 
 This code reads an existing favicon and converts it into a greyscale image with a smaller palette size. It's not particularly pretty code but this what happens when we pump in the Guardian favicon:
