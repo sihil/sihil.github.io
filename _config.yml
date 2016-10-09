@@ -23,6 +23,9 @@ stackoverflow: users/3990127/sihil   #e.g: users/2735833/proton1h1
 #disqus: username
 google_analytics: UA-85017705-2
 
+gems:
+  - jekyll-sitemap
+
 
 # needed for travis-ci build
 exclude: [vendor]
