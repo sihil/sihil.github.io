@@ -5,6 +5,7 @@ paginate: 5
 gems: [jekyll-paginate]
 port: 3000
 safe: true
+markdown: kramdown
 
 
 # edit here to achieve your personal greatness
@@ -12,7 +13,7 @@ url: https://sihil.net/
 title: Simon Hildrew
 author: Simon Hildrew
 description: Professional blog
-avatar: profile.jpg
+avatar: profile.png
 email: simon@hildrew.net
 github: sihil
 twitter: sihil
