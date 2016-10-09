@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Disallow:
+Sitemap: https://sihil.net/sitemap.xml
