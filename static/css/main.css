@@ -170,22 +170,22 @@ body {
   font-size: 18px;
 }
 
-.blogpost table {
+.data-table {
   border: 1px solid darkgrey;
 }
 
-.blogpost thead {
+.data-table thead {
   background-color: #e0e0e0;
   color: #000;
   text-align: left;
   vertical-align: bottom;
 }
 
-.blogpost th {
+.data-table th {
   font-weight: bold;
 }
 
-.blogpost td, .blogpost th {
+.data-table td, .data-table th {
   border-left: 1px solid #cbcbcb;
   padding: 0.35em 0.7em;
 }
