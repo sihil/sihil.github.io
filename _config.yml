@@ -2,7 +2,9 @@
 highlighter: rouge
 permalink: /:title.html
 paginate: 5
-gems: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 port: 3000
 safe: true
 markdown: kramdown
@@ -22,9 +24,6 @@ stackoverflow: users/3990127/sihil   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
 #disqus: username
 google_analytics: UA-85017705-2
-
-gems:
-  - jekyll-sitemap
 
 
 # needed for travis-ci build
