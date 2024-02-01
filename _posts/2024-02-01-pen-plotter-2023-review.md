@@ -10,6 +10,8 @@ For Christmas 2022 (yes, more than a year ago) I was given an iDraw v2 A3 pen pl
 
 This post is a summary of the two projects I've done in the last two months of the year. A Christmas card and a "snowflake machine" where I hooked it up to a joystick and let my nieces and nephews draw snowflakes.
 
+### The Christmas card
+
 I'd been hoping to use the pen plotter to create a Christmas card and so when November arrived I spent a chunk of time making that happen as my first serious project. I'm really pleased with the result, and it was a great way to learn how to use the plotter.
 
 ![Christmas card]({{ site.baseurl }}assets/2024-02-final-card.jpeg){:height="867px" width="650px"}
@@ -21,6 +23,8 @@ My final pipeline for creating the card was as follows:
  - Use gcode-cli to send the GCode to the plotter (via a connected raspberry pi so my mac wasn't permanently tied up)
 
 It probably took me about 30 hours to muddle my way through the process and having done so, it laid the groundwork to be more adventurous with the snowflake machine. You can see the code for the Christmas card [here](https://github.com/sihil/christmas2023).
+
+### The snowflake machine
 
 I came up with the idea for a snowflake machine when tidying up and coming across a long forgotten joystick. I wondered if I would use it to directly control the plotter but then also rotate and reflect what had been drawn to create a snowflake. The answer was no, you don't get snowflakes. But it did produce some interesting patterns and my nieces and nephews massively enjoyed playing with it.
 
